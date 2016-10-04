@@ -25,25 +25,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Changes between Celsius and Fahrenheit
 - (IBAction) segmentedControlValueChanged: (UISegmentedControl *) segmentedControl {
     
@@ -61,8 +42,7 @@
         _temperature.text = resultsLabel;
         
     }
-        
-    
+          
     
 }
 // Slider value changed
@@ -75,18 +55,5 @@
     self.temperature.text = newValue; 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @end
